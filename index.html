@@ -39,16 +39,25 @@
 <body>
 <ul>
     <li>
-        <p>Model with Complete Map : </p>
-        <model-viewer src="GLBS/22.glb"
-        auto-rotate camera-controls
+        <p>GBF11 4k : </p>
+        <model-viewer src="GLBS/GBf011.glb"
+        camera-controls
         ar
         shadow-intensity="1"
+        stage-light-intensity="2"
+                alt="Complete">
+        </model-viewer>
+    </li>
+    <li>
+        <p>GBF11 2k (photoshop) : </p>
+        <model-viewer src="GLBS/GBf011_2k.glb"
+        camera-controls
+        ar
+        shadow-intensity="2"
         stage-light-intensity="1"
                 alt="Complete">
         </model-viewer>
     </li>
-    <img src="img/22.jpg">GBF22 Reference render</img>
     <!-- <li>
         <p>Model with baked and color corrected textures : </p>
         <model-viewer src="GLBS/CCBake.glb"
@@ -70,6 +79,9 @@
         </model-viewer>
     </li> -->
 </ul>
+
+<img src="img/GB011.jpg">GBF11 Reference render</img>
+
     <!-- 💁 Include both scripts below to support all browsers! -->
 
     <!-- Loads <model-viewer> for modern browsers: -->
